@@ -146,7 +146,7 @@ first_part <- cowplot::plot_grid(a + theme(legend.position = "none"),
                                  labels = c("a", "b", "c"),
                                  nrow = 1)
 
-ggsave(filename = "2_YFV_natural_history_parameter_estimation_real/figures/SI_NHP_NatHist.pdf",
+ggsave(filename = "1_YFV_natural_history_parameter_estimation/figures/SI_NHP_NatHist.pdf",
        plot = first_part,
        width = 12, height = 4)
 

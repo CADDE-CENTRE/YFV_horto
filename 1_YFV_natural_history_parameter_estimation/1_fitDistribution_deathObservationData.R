@@ -118,7 +118,7 @@ deaths_obs_delay_plot2 <- ggplot() +
         # legend.justification = c(1, 1),
         legend.position = "none")
 
-ggsave(filename = "2_YFV_natural_history_parameter_estimation_real/figures/SI_NHP_DeathObs.pdf",
+ggsave(filename = "1_YFV_natural_history_parameter_estimation/figures/SI_NHP_DeathObs.pdf",
        plot = deaths_obs_delay_plot2,
        width = 4, height = 4)
 
