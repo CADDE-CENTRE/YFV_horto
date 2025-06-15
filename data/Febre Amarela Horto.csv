@@ -1,0 +1,175 @@
+ID,LOCATION,ZONE_PEAL,Location,Latitude,Longitude,Date_death,Date_of_identification_or_collection,Date_notification,Stage_decomposition,FINAL_YFV_Result,IHQ_YFV_Result,PCR_YFV_Result,Collection,Transport_institute,Species,STATUS
+1,Norte,Vila Amália,Campo do Guarani,"-23,464,568","-466,488,902",?06/10/2017,09/10/2017,09/10/2017,Médio (3 a 5 dias),POSITIVO,Não tem,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+2,,Vila Amália,Campo do Guarani,,,? 11/10/2017,21/10/2017,There_was_no_collection,Avançado (+5 a 10 dias),NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+3,,Vila Amália,Campo do Guarani,,,? 11/10/2017,21/10/2017,There_was_no_collection,Avançado (+5 a 10 dias),NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+4,Norte,Sede-IF,Av. Santa Inês,"-234,648,443","-466,340,698",29/10/2017,29/10/2017,29/10/2017,Íntegro (vivo _ 0 a 2 dias),NEGATIVO,Negativo,Negativo,Sim,PAMB,Alouatta guariba clamitans,
+5,Norte,Sede-IF,Casa do Zé Menino,"-234,598,158","-466,361,394",03/11/2017,03/11/2017 ou 04/11/2017,04/11/2017,Íntegro (vivo_0 a 2 dias),NEGATIVO,Negativo,Negativo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+6,Norte,Vila Amália,Proximo a lombada eletrônica (Av. Parada Pinto),"-234,598,158","-466,361,394",?30/11/2017,03/12/2017,03/12/2017,Médio (3 a 5 dias),NEGATIVO,Negativo,Negativo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+7,Norte,Uso Público,São João Gualberto,"-234,598,158","-466,361,394",12/12/2017,12/12/2017,12/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+8,,Uso Público,Bica do Fundo,,,?10/12/2017,15/12/2017,There_was_no_collection,Avançado (+5 a 10 dias),NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+9,Norte,Uso Público,Portão Principal (P04),"-234,598,158","-466,361,394",16/12/2017,16/12/2017,16/12/2017 ou 17/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+10,Norte,Uso Público,Casa 04,"-234,598,158","-466,361,394",15/12/2017,15/12/2017 ou 17/12/2017,17/12/2017,Íntegro (vivo _0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+11,Norte,Uso Público,São João Gualberto,"-234,598,158","-466,361,394",17/12/2017,17/12/2017,17/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+12,Norte,Uso Público,São João Gualberto,"-234,598,158","-466,361,394",17/12/2017,17/12/2017,17/12/2017,Vivo,POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+13,Norte,Uso Público,São João Gualberto,"-234,598,158","-466,361,394",18/12/2017,18/12/2017 ou 19/12/2017,19/12/2017,Íntegro (vivo + 1 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+14,Norte,Uso Público,São João Gualberto,"-234,598,158","-466,361,394",19/12/2017,19/12/2017,19/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+15,Norte,Uso Público,Arboreto 500 anos,"-234,598,158","-466,361,394",19/12/2017,19/12/2017,19/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+16,Norte,Uso Público,Museu Otávio Vecchi,"-234,598,158","-466,361,394",20/12/2017,20/12/2017,20/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,sim,GCM-DEPAVE,Alouatta guariba clamitans,
+17,Norte,Uso Público,P10_Comando Pamb,"-234,598,158","-466,361,394",20/12/2017,20/12/2017,20/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+18,Norte,Uso Público,Portão Principal (P04),"-234,598,158","-466,361,394",20/12/2017,20/12/2017,20/12/2017,Íntegro (Vivo_0 a 2 dias),POSITIVO,Positivo ou Amostra inadequada - sem fígado,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+19,Norte,Uso Público,Portão Principal (P04),"-234,598,158","-466,361,394",21/12/2017,21/12/2017,21/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+20,Norte,Uso Público,Portão Principal (P04),"-234,598,158","-466,361,394",21/12/2017,21/12/2017,21/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Inadequado/SemFígado,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+21,Norte,Uso Público,Portão Principal (P04),"-234,598,158","-466,361,394",21/12/2017,21/12/2017,21/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,
+22,Norte,Uso Público,P10_Comando Pamb,"-234,598,158","-466,361,394",22/12/2017,22/12/2017,22/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+23,Norte,Vila Amália,Arboreto_Talhão de Pinus,"-234,598,158","-466,361,394",22/12/2017,22/12/2017,22/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,GCM-DEPAVE,Alouatta guariba clamitans,Sequenced
+24,Norte,Sede-IF,P10_Comando Pamb,"-234,598,158","-466,361,394",22/12/2017,22/12/2017,22/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Não,GCM-DEPAVE,Alouatta guariba clamitans,
+25,Norte,Sede-IF,Casa 04,"-234,598,158","-466,361,394",23/12/2017,23/12/2017 ou 24/12/2017,24/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+26,Norte,Sede-IF,Dasonomia,"-234,598,158","-466,361,394",23/12/2017,23/12/2017 ou 24/12/2017,24/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+27,Norte,Uso Público,P10_Comando Pamb,"-234,598,158","-466,361,394",23/12/2017,23/12/2017 ou 24/12/2017,24/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+28,Norte,Uso Público,Casa 04,"-234,598,158","-466,361,394",23/12/2017,23/10/2017 ou 24/12/2017,24/10/2017 ou 24/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+29,Norte,Vila Amália,Vila Amélia_Parada Pinto,"-234,598,158","-466,361,394",25/12/2017,25/12/2017 ou 26/12/2017,26/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,
+30,Norte,Vila Amália,Vila Amélia_Parada Pinto,"-234,598,158","-466,361,394",21/12/2017,25/12/2017 ou 26/12/2017,26/12/2017,Avançado (+5 a 10 dias),NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,Não,Não,Alouatta guariba clamitans,
+31,Norte,Vila Amália,Vila Amélia_Parada Pinto,"-234,598,158","-466,361,394",21/12/2017,25/12/2017 ou 26/12/2017,26/12/2017,Avançado (+5 a 10 dias),NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,Não,Não,Alouatta guariba clamitans,
+32,Norte,Sede-IF,P10_Comando Pamb,"-234,598,158","-466,361,394",21/12/2017,26/12/2017,26/12/2017,Avançado (+5 a 10 dias),NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,Não,Não,Alouatta guariba clamitans,
+33,Norte,Sede-IF,Viveiro,"-234,598,158","-466,361,394",23/12/2017,26/12/2017,26/12/2017,Médio,POSITIVO,Positivo,Positivo,Não,Não,Alouatta guariba clamitans,
+34,Norte,Vila Amália,Vila Amélia_Parada Pinto,"-234,598,158","-466,361,394",23/12/2017,26/12/2017,26/12/2017,Médio,POSITIVO,Positivo,Positivo,Não,Não,Alouatta guariba clamitans,Sequenced
+35,Norte,Sede-IF,Viveiro,"-234,598,158","-466,361,394",23/12/2017,26/12/2017,26/12/2017,Médio-Avançado,POSITIVO,Positivo,Positivo,Não,Não,Alouatta guariba clamitans,
+36,Norte,Sede-IF,Viveiro,"-234,598,158","-466,361,394",23/12/2017,26/12/2017,26/12/2017,Médio-Avançado,POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,
+37,Norte,Uso Público,Portão Principal (P04),"-234,598,158","-466,361,394",26/12/2017,26/12/2017,26/12/2017,Vivo,POSITIVO,Positivo,Positivo,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,
+38,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",24/12/2017,27/12/2017,27/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+39,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",22/10/2017,27/12/2017,27/12/2017,Médio-Avançado,POSITIVO,Positivo,Positivo,Não,Não,Alouatta guariba clamitans,Sequenced
+40,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",24/12/2017,27/12/2017,27/12/2017,Médio,POSITIVO,Positivo,Positivo,Não,Não,Alouatta guariba clamitans,Sequenced
+41,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",21/12/2017,27/12/2017,27/12/2017,Avançado,NÃO DETERMINADO,Não tem ou Positivo,Não tem ou Positivo,Não,Não,Alouatta guariba clamitans,
+42,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",24/12/2017,27/12/2017,27/12/2017,Médio,NÃO DETERMINADO,Não tem,Não tem,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,
+43,,Vila Amália,Entre Parada Pinto e Vila Amélia,,,21/12/2017,27/12/2017,NÃO NOTIFICADO,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+44,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",21/12/2017,27/12/2017,27/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+45,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",25/12/2017,27/12/2017,27/12/2017,íntegro,POSITIVO,Positivo,Positivo,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,
+46,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",21/12/2017,27/12/2017,27/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+47,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",22/12/2017,27/12/2017,27/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+48,Norte,Vila Amália,entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",22/12/2017,28/12/2017,28/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+49,Norte,Vila Amália,Entre Parada Pinto e Vila Amélia,"-234,598,158","-466,361,394",22/12/2017,28/12/2017,28/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+50,Norte,Vila Amália,Guarita de lata/bica,"-234,598,158","-466,361,394",28/12/2017,28/12/2017 ou 29/12/2017,29/12/2017,Íntegro,POSITIVO,Positivo,Positivo,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,
+51,Norte,Sede-IF,Portão Principal (P04),"-234,598,158","-466,361,394",24/12/2017,28/12/2017 ou 22/12/2017,29/12/2017 ou 22/12/2017,Avançado,POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,
+52,Norte,Sede-IF,Viveiro,"-234,598,158","-466,361,394",29/10/2017,29/12/2017,29/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,Sim,PAMB-DEPAVE,Alouatta guariba clamitans,
+53,Norte,Sede-IF,Talhão de Pinus DD,"-234,598,158","-466,361,394",24/12/2017,30/12/2017,30/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+55,Norte,Sede-IF,DD Cemas,"-234,598,158","-466,361,394",24/12/2017,30/12/2017,30/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+56,Norte,Sede-IF,Grupo Hospedaria_bambuzal_pinheiro do brejo,"-234,598,158","-466,361,394",24/12/2017,30/12/2017,30/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+57,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",28/12/2017,31/12/2017,31/12/2017,Médio,POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+58,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",28/12/2017,31/12/2017,31/12/2017,Médio,POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+59,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",28/12/2017 ou 31/12/2017,31/12/2017,31/12/2017,Médio,POSITIVO,Positivo,Positivo,Não,PAMB-DEPAVE,Alouatta guariba clamitans,Sequenced
+60,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",24/12/2017,31/12/2017,31/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+61,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",24/12/2017,31/12/2017,31/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+62,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",24/12/2017,31/12/2017,31/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+63,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",24/12/2017,31/12/2017,31/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+64,Norte,Vila Amália,Grupo Vila Amalia II,"-234,598,158","-466,361,394",24/12/2017,31/12/2017,31/12/2017,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+65,Norte,Sede-IF,Portão Cetesb,"-234,598,158","-466,361,394",28/12/2017,03/01/2018,04/01/2018,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+66,Norte,Vila Amália,Polo,"-234,598,158","-466,361,394",03/01/2018,04/01/2018 ou 05/01/2018,05/01/2018,Íntegro (vivo_0 a 2 dias),POSITIVO,Não tem ou Positivo,Não tem ou Positivo,Não,Não,Alouatta guariba clamitans,
+67,Norte,Vila Amália,Polo,"-234,598,158","-466,361,394",03/01/2018,05/01/2018,05/01/2018,Íntegro (vivo_0 a 2 dias),POSITIVO,Não tem ou Positivo,Não tem ou Positivo,Não,Não,Alouatta guariba clamitans,
+68,Norte,Sede-IF,Roberto Carlos,"-234,598,158","-466,361,394",31/12/2017,05/01/2018,06/01/2018,Avançado,NÃO DETERMINADO,Não tem,Não tem,Não,Não,Alouatta guariba clamitans,
+69,,Sede-IF,Roberto Carlos,#N/A,#N/A,31/12/2017,05/01/2018,05/01/2018,Avançado,NÃO DETERMINADO,Não Tem,Não Tem,Não,Não,Alouatta guariba clamitans,
+70,Norte,NA,,"-234,635,875","-466,220,633",desconhecida,10/10/2017,10/10/2017,,NEGATIVO,Negativo,Negativo (fígado),,,Alouatta guariba clamitans,
+71,Mairipora,NA,,"-234,172,743","-466,539,609",20/10/2017,21/10/2017,21/10/2017,,NEGATIVO,Negativo,Negativo (fígado),,,Alouatta guariba clamitans,
+72,Norte,NA,,"-234,581,103","-466,342,609",22/10/2017,26/09/2017,23/10/2017,,NEGATIVO,Negativo,Negativo,,,Callithrix sp.,
+73,Norte,NA,,"-234,051,282","-465,756,682",desconhecida,26/10/2017,26/10/2017,,NEGATIVO,Negativo,Negativo,,,Alouatta guariba clamitans,
+74,Mairipora,NA,,"-234,189,989","-466,655,516",28/10/2017,29/10/2017,29/10/2017,,NEGATIVO,Negativo,Negativo,,,Alouatta guariba clamitans,
+75,Norte,NA,,"-234,508,046","-466,164,128",10/11/2017,10/11/2017,10/11/2017,,NEGATIVO,Negativo,Negativo (fígado),,,Alouatta guariba clamitans,
+76,Mairipora,NA,,"-233,663,779","-466,125,439",14/11/2017,14/11/2017,14/11/2017,,NEGATIVO,Negativo,Negativo,,,Alouatta guariba clamitans,
+77,Mairipora,NA,,"-234,189,989","-466,655,516",16/11/2017,16/11/2017,16/11/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+78,Mairipora,NA,,"-234,189,989","-466,655,516",16/11/2017,16/11/2017,16/11/2017,,POSITIVO,Negativo,Positivo,,,Alouatta guariba clamitans,
+79,Norte,NA,,"-234,183,528","-465,822,123",20/11/2017,20/11/2017,20/11/2017,,NEGATIVO,Amostra inadequada- sem amostra figado,Negativo,,,Alouatta guariba clamitans,
+80,Norte,NA,,"-234,224,643","-467,211,147",desconhecida,22/11/2017,23/11/2017,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+81,Mairipora,NA,,"-233,668,848","-466,136,934",desconhecida,25/11/2017,26/11/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+82,Mairipora,NA,,"-233,663,779","-466,125,439",28/11/2017,28/11/2017,28/11/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+83,Norte,NA,,"-234,238,981","-465,811,609",desconhecida,28/11/2017,28/11/2017,,NEGATIVO,Negativo,Negativo,,,Alouatta guariba clamitans,
+84,Norte,NA,,"-234,445,678","-466,101,336",28/11/2017,28/11/2017,28/11/2017,,NEGATIVO,Negativo,Negativo,,,Alouatta guariba clamitans,
+85,Mairipora,NA,,"-233,662,185","-46,592,896",29/11/2017,29/11/2017,29/11/2017,,NEGATIVO,Negativo,Negativo,,,Alouatta guariba clamitans,
+86,Mairipora,NA,,"-233,662,185","-46,592,896",29/11/2017,29/11/2017,29/11/2017,,NEGATIVO,Negativo,Negativo (fígado),,,Alouatta guariba clamitans,
+87,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,03/12/2017,03/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+88,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,05/12/2017,05/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+89,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,05/12/2017,05/12/2017,,POSITIVO,Inadequado,Positivo,,,Alouatta guariba clamitans,Sequenced
+90,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,05/12/2017,05/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+91,Norte,NA,,"-234,545,195","-466,235,704",desconhecida,05/12/2017,05/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+92,Norte,NA,,"-234,545,195","-466,235,704",05/12/2017,05/12/2017,05/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+93,Norte,NA,,"-234,161,991","-465,845,585",05/12/2017,05/12/2017,05/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+94,Norte,NA,,"-234,520,161","-466,192,767",desconhecida,07/12/2017,07/12/2017,,POSITIVO,Negativo,Positivo,,,Alouatta guariba clamitans,Sequenced
+95,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,07/12/2017,07/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+96,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,08/12/2017,08/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+97,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,08/12/2017,08/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+98,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,08/12/2017,08/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+99,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,08/12/2017,08/12/2017,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+100,Norte,NA,,"-23,448,098","-466,199,025",desconhecida,08/12/2017,08/12/2017,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+101,Mairipora,NA,,"-234,214,045","-466,215,058",desconhecida,08/12/2017,08/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+102,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,08/12/2017,08/12/2017,,NEGATIVO,Negativo,Negativo (fígado),,,Alouatta guariba clamitans,
+103,Norte,NA,,"-234,533,649","-466,709,301",desconhecida,11/12/2017,11/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+104,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,11/12/2017,11/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+105,Norte,NA,,"-234,480,666","-466,185,899",desconhecida,11/12/2017,11/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+106,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,11/12/2017,11/12/2017,,POSITIVO,Inadequado,Positivo,,,Alouatta guariba clamitans,Sequenced
+107,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,12/12/2017,12/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+108,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,12/12/2017,12/12/2017,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+109,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,14/12/2017,14/12/2017,Íntegro (vivo _0 a 2 dias),POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+110,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,14/12/2017,14/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+111,Norte,NA,,"-234,191,513","-465,903,346",desconhecida,14/12/2017,14/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+112,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,14/12/2017,14/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+113,Norte,NA,,"-234,461,853","-467,052,696",14/12/2017,15/12/2017,15/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+114,Norte,NA,,"-234,461,714","-466,176,563",desconhecida,15/12/2017,15/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+115,Norte,NA,,"234,517,279","-466,184,316",desconhecida,16/12/2017,16/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+116,Norte,NA,,"234,517,279","-466,184,316",desconhecida,16/12/2017,16/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+117,Norte,NA,,"234,517,279","-466,184,316",16/12/2017,16/12/2017,16/12/2017,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+118,Norte,NA,,"-234,381,956","-467,092,847",desconhecida,17/12/2017,17/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+119,Norte,NA,,"-234,381,956","-467,092,847",desconhecida,17/12/2017,17/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+120,Norte,NA,,"-234,476,865","-466,163,571",desconhecida,17/12/2017,17/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+121,Norte,NA,,"-234,476,865","-466,163,571",desconhecida,17/12/2017,17/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+122,Norte,NA,,"-234,450,952","-466,131,346",desconhecida,18/12/2017,18/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+123,Norte,NA,,"-234,450,952","-466,131,346",18/12/2017,18/12/2017,19/12/2017,,POSITIVO,inconclusiva,Positivo,,,Alouatta guariba clamitans,Sequenced
+124,Norte,NA,,"-234,542,863","-466,360,281",19/12/2017,19/12/2017,19/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+125,Norte,NA,,"-234,803,478","-466,272,311",19/12/2017,19/12/2017,19/12/2017,,POSITIVO,Negativo,Positivo,,,Callithrix sp.,
+126,Norte,NA,,"23,421,927","-465,880,621",21/12/2017,21/12/2017,21/12/2017,,NEGATIVO,Negativo,Negativo,,,Alouatta guariba clamitans,
+127,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,21/12/2017,21/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+128,Norte,NA,,"-234,542,863","-466,360,281",desconhecida,21/12/2017,21/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+129,Norte,NA,,"-234,691,167","-466,188,037",desconhecida,27/12/2017,27/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+130,Norte,NA,,"-234,587,042","-466,304,206",desconhecida,29/12/2017,29/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+131,Norte,NA,,"-234,723,139","-466,182,287",desconhecida,29/12/2017,29/12/2017,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+132,Norte,NA,,"-234,691,167","-466,188,037",desconhecida,31/12/2017,31/12/2017,Íntegro (vivo + 1 a 2 dias),POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+133,Norte,NA,,"-234,691,167","-466,188,037",02/01/2018,02/01/2018,02/01/2018,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+134,Norte,NA,,"-234,557,207","-466,197,139",03/01/2018,03/01/2018,03/01/2018,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+135,Norte,NA,,"-234,691,167","-466,188,037",desconhecida,04/01/2018,04/01/2018,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+136,Norte,NA,,"-234,691,167","-466,188,037",desconhecida,04/01/2018,04/01/2018,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+137,Norte,NA,,"-234,691,167","-466,188,037",desconhecida,04/01/2018,04/01/2018,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,
+138,Norte,NA,,"-234,521,178","-466,063,849",desconhecida,07/01/2018,07/01/2018,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+139,Norte,NA,,"-234,454,264","-465,964,362",desconhecida,15/01/2018,15/01/2018,Íntegro (vivo_0 a 2 dias),POSITIVO,Positivo,,,,Alouatta guariba clamitans,Sequenced
+140,Mairipora,NA,,"-23,245,244","-46,569,971",desconhecida,09/01/2018,15/01/2018,,NEGATIVO,Negativo,Sample_not_sent,,,Alouatta guariba clamitans,
+141,Norte,NA,,"-234,644,648","-466,172,625",desconhecida,15/01/2018,15/01/2018,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+142,Norte,NA,,"-234,644,648","-466,172,625",desconhecida,15/01/2018,15/01/2018,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+143,Norte,NA,,"-234,644,648","-466,172,625",desconhecida,15/01/2018,15/01/2018,,NÃO DETERMINADO,Sample_not_sent,Sample_not_sent,,,Alouatta guariba clamitans,
+144,Norte,NA,,"-234,454,264","-465,964,362",desconhecida,19/01/2018,19/01/2018,,POSITIVO,Positivo,Positivo,,,Alouatta guariba clamitans,Sequenced
+145,Norte,NA,,"-234,401,177","-467,043,919",desconhecida,27/01/2018,27/01/2018,,POSITIVO,Negativo,Negativo (fígado) / Positivo (encéfalo),,,Callithrix sp.,
+146,Mairiporã,NA,,"-234,214,045","-466,215,058",24/01/2018,30/01/2018,31/01/2018,,POSITIVO,Amostra inadequada,Positivo,,,Callithrix aurita,
+147,Mairiporã,NA,,"-23,329,005","-465,776,382",24/01/2018,30/01/2018,31/01/2018,,POSITIVO,Negativo,Positivo,,,Callithrix sp.,
+148,Norte,NA,,"-234,598,158","-466,361,394",desconhecida,23/02/2018,26/02/2018,,NEGATIVO,Negativo,Negativo,,,Callithrix sp.,
+149,Norte,NA,,"-234,538,874","-466,502,088",desconhecida,30/03/2018,30/03/2018,,NEGATIVO,"Amostra inadequada, autólise",Negativo,,,Callithrix sp.,
+150,Norte,NA,,"-234,681,372","-466,072,671",18/04/2018,18/04/2018,18/04/2018,,NEGATIVO,Negativo,Negativo,,,Callithrix sp.,
+151,Mairipora,NA,,"-238,921,369","-466,179,791",desconhecida,24/04/2018,24/04/2018,,NEGATIVO,Negativo,"Negativo (fígado), negativo (encéfalo)",,,Callithrix aurita,
+152,Norte,NA,,"-234,691,167","-466,188,037",desconhecido,05/06/2018,05/06/2018,,NEGATIVO,Inadequado (autólise),"Negativo (encéfalo), Negativo (fígado)",,,Callithrix sp.,
+153,Norte,NA,,"-234,625,002","-466,295,915",desconhecido,15/06/2018,18/06/2018,,NEGATIVO,Negativo,"Negativo (fígado), negativo (encéfalo)",,,Callithrix sp.,
+154,Mairipora,NA,,"-234,189,989","-466,655,516",14/08/2018,14/08/2018,16/08/2018,,NEGATIVO,Negativo,Negativo,,,Callithrix sp.,
+155,Norte,NA,,"-234,662,852","-466,159,149",10/09/2018,08/09/2018,10/09/2018,,NEGATIVO,HP não compativel com FA,Negativo,,,Callithrix sp.,
+156,Mairipora,NA,,"-233,720,397","-466,437,934",26/09/2018,26/09/2018,26/09/2018,,NEGATIVO,Não realizada (HP ñ compatível com FA),Negativo,,,Alouatta guariba clamitans,
+157,Norte,NA,,"-23,461,726","-46,623,013",05/12/2018,05/12/2018,06/12/2018,,NEGATIVO,Não realizada (HP ñ compatível com FA),"Negativo (encéfalo), Negativo (fígado)",,,Callithrix sp,
+158,Norte,NA,,"-234,613,387","-466,395,745",11/12/2018,11/12/2018,11/12/2018,,NEGATIVO,Inadequado (autólise),"Negativo (encéfalo), Negativo (fígado)",,,Sapajus sp,
+159,Norte,NA,,"-234,613,387","-466,395,745",11/12/2018,11/12/2018,11/12/2018,,NEGATIVO,Inadequado (autólise),"Negativo (encéfalo), Negativo (fígado)",,,Sapajus sp,
+160,Norte,NA,,"-234,613,387","-466,395,745",11/12/2018,11/12/2018,11/12/2018,,NEGATIVO,Não recebido,"Negativo (encéfalo), Negativo (fígado)",,,Sapajus sp,
+161,,,,"-2,345,584","-4,663,605",,26/12/2017,,,,,,,,Haemagogus leucocelaenus,Sequenced
+162,,,,"-2,346,351","-4,663,303",,03/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+163,,,,"-2,346,469","-4,663,525",,04/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+164,,,,"-2,346,389","-4,663,025",,04/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+165,,,,"-2,346,634","-4,663,147",,05/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+166,,,,"-2,346,634","-4,663,147",,05/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+167,,,,"-23,465,369","-46,630,977",,11/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+168,,,,"-23,465,369","-46,630,977",,11/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+169,,,,"-23,465,369","-46,630,977",,11/01/2018,,,,,,,,Haemagogus leucocelaenus,Sequenced
+170,,,,,,,,,,,,,,,,
+LEGENDA ID,Coleta,,,,,,,,,,,,,,,
+,SIM,,,,,,,,,,,,,,,
+,NÃO,,,,,,,,,,,,,,,
+,SIM,,,,,,,,,,,,,,,
+,NÃO,,,,,,,,,,,,,,,
