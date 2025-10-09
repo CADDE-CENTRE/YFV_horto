@@ -9,7 +9,7 @@ degrees25_df_adults <- tibble(days = c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14,
 degrees25_df_adults$perc <- degrees25_df_adults$mod/degrees25_df_adults$total
 
 ## Adults at 25 degrees
-model_gamma2 <- stan_model("2_YFV_natural_history_parameter_estimation_real/models/EIP_gamma_model2.stan")
+model_gamma2 <- stan_model("1_YFV_natural_history_parameter_estimation/models/EIP_gamma_model2.stan")
 data_stan_adults25 <- list(N = length(degrees25_df_adults$days),
                            day = degrees25_df_adults$days,
                            infected = degrees25_df_adults$total,

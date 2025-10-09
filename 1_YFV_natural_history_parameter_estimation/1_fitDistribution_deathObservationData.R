@@ -34,7 +34,7 @@ y[y < 0.5] <- 0.5
 mean(y)
 
 ## Fitting the time between infection and death - mixture of Exponential and Gamma distribution
-model <- stan_model("2_YFV_natural_history_parameter_estimation_real/models/observation_time_gamma_exp_mix.stan")
+model <- stan_model("1_YFV_natural_history_parameter_estimation/models/observation_time_gamma_exp_mix.stan")
 data_stan <- list(N = nrow(df) - 1,
                   days = as.numeric(df2$death_collection_delay2) + 0.01,
                   a_1 = 1,

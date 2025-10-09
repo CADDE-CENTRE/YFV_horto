@@ -16,7 +16,7 @@ df <- tibble(id = seq_along(days_virus_post_infection),
   mutate(days_death_post_infection = if_else(is.na(days_death_post_infection), -99, days_death_post_infection))
 
 ## Fitting the time between infection and death
-model <- stan_model("2_YFV_natural_history_parameter_estimation_real/models/laemmert_monkey_death.stan")
+model <- stan_model("1_YFV_natural_history_parameter_estimation/models/laemmert_monkey_death.stan")
 data_stan <- list(N = nrow(df),
                   days = df$days_death_post_infection,
                   truncated = df$death_truncated,
