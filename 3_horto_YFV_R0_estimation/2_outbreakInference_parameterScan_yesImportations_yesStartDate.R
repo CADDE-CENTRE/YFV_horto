@@ -1,6 +1,6 @@
 # load required libraries
 library(individual); library(dplyr); library(tidyverse); library(doParallel); library(tictoc); 
-library(parallel); library(profvis); library(truncnorm)
+library(parallel); library(profvis); library(truncnorm); library(incidence)
 
 ## Sourcing functions
 source("functions/IBM_model.R")
