@@ -9,7 +9,7 @@ degrees25_df_adults <- tibble(days = c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14,
 degrees25_df_adults$perc <- degrees25_df_adults$mod/degrees25_df_adults$total
 
 ## Adults at 25 degrees
-model_gamma2 <- stan_model("1_YFV_natural_history_parameter_estimation/models/EIP_gamma_model2.stan")
+model_gamma2 <- stan_model("scripts/modelling/1_YFV_natural_history_parameter_estimation/models/EIP_gamma_model2.stan")
 data_stan_adults25 <- list(N = length(degrees25_df_adults$days),
                            day = degrees25_df_adults$days,
                            infected = degrees25_df_adults$total,
@@ -70,7 +70,7 @@ modelled_b <- mean(rstan::extract(fit_adults25, "b")[[1]])
 modelled_a / modelled_b
 
 saveRDS(object = data.frame(gamma_a = modelled_a, gamma_b = modelled_b),
-        file = "outputs/EIP_adultMice_gammaParams_25degrees.rds")
+        file = "outputs/modelling/EIP_adultMice_gammaParams_25degrees.rds")
 
 a <- ggplot(data = df_posterior_mortality_summary) +
   geom_point(x = 0, y = 0.63, shape = 21, color = "black", fill = "grey", size = 4, alpha = 0.1) +
@@ -98,12 +98,12 @@ b <- ggplot(df_gamma, aes(x = x, y = pdfval, group = i)) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 
 overall <- cowplot::plot_grid(a, b, labels = c("a", "b"), nrow = 2)
-ggsave(filename = "1_YFV_natural_history_parameter_estimation/figures/SI_EIP_figure.pdf",
+ggsave(filename = "scripts/modelling/1_YFV_natural_history_parameter_estimation/figures/SI_EIP_figure.pdf",
        plot = overall,
        width = 5, height = 7)
 
 overall <- cowplot::plot_grid(a, b, labels = c("a", "b"), nrow = 1)
-ggsave(filename = "1_YFV_natural_history_parameter_estimation/figures/SI_EIP_figure_alt.pdf",
+ggsave(filename = "scripts/modelling/1_YFV_natural_history_parameter_estimation/figures/SI_EIP_figure_alt.pdf",
        plot = overall,
        width = 10, height = 3.5)
 
