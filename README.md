@@ -8,7 +8,7 @@ This repository contains the scripts and input tables used to reproduce the main
 
 ## Quick start
 
-1. Open the R project: `_ZENODO.Rproj`.
+1. Open the R project: `YFV_horto.Rproj`.
 2. In R, run:
    ```r
    source("scripts/00_setup_simple.R")
@@ -24,17 +24,19 @@ data/
   climate/
     SP_met_and_haemagogus_data_MONTHLY.CSV
     SP_met.RDS
+  modelling/
+    Febre Amarela Horto.csv
+    processed_HortoData.rds
   phylo/
     alignments/           # FASTA alignments used to infer trees
     trees/                # IQ-TREE and BEAST outputs; HAV_tempest.csv
-
-supplementary/
-  SupplementaryData1.csv  # mosquito collections
-  SupplementaryData2.csv
-  SupplementaryData3.csv  # MIR/MLE meta-analysis
-  SupplementaryData4.csv  # sequencing stats; RPM already in log10 units
-  DATA_DICTIONARY.md
-  SUPPLEMENTARY_DATA_README.md
+  supplementary/
+    SupplementaryData1.csv  # mosquito collections
+    SupplementaryData2.csv
+    SupplementaryData3.csv  # MIR/MLE meta-analysis
+    SupplementaryData4.csv  # sequencing stats; RPM already in log10 units
+    DATA_DICTIONARY.md
+    SUPPLEMENTARY_DATA_README.md
 
 scripts/
   00_setup_simple.R                # sets paths DATA_* and OUT, loads packages
@@ -50,11 +52,13 @@ scripts/
   hav_root_to_tip_simple.R
   bioinformatics/                 # one-line command files for consensus, mafft, iqtree
   beast_xmls/                     # BEAST XMLs used in time-scaled analyses
+  modelling/                      # contains code required to implement IBM-based modelling of transmission dynamics
 
 outputs/
   fig2/       # Figure 2 panels
   supp_fig/   # Supplementary figures
   stats/      # CSV and HTML stats exports
+  modelling/  # IBM modelling & R0 estimation outputs
 ```
 
 ---
@@ -159,6 +163,12 @@ install.packages(setdiff(pkgs, rownames(installed.packages())))
 - Phylogenetic figures are regenerated from the included trees.
 
 ---
+
+## Modelling & R0 estimation
+
+- **Data:** `data/modelling/processed_HortoData.rds`
+- **Model:** `functions/IBM_model.R`
+- **Script:** `scripts/modelling/3_horto_YFV_R0_estimation/2_outbreakInference_parameterScan_yesImportations_yesStartDate.R`
 
 ## Licence
 
