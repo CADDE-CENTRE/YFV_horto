@@ -33,7 +33,7 @@ library(tidyverse); library(anytime); library(incidence2); library(truncdist);
 ## STATUS - appears to describe whether or not the monkey's YFV was sequenced (I count only 20 in the spreadsheet for Horto, is that wrong?)
 
 # Loading data
-df <- read.csv(file = "data/Febre Amarela Horto.csv", fileEncoding="latin1")[1:159, ] %>%
+df <- read.csv(file = "data/modelling/Febre Amarela Horto.csv", fileEncoding="latin1")[1:159, ] %>%
   dplyr::select(ID, STATUS, Species, LOCATION, ZONE_PEAL, Latitude, Longitude, 
          Date_notification, Date_of_identification_or_collection, Collection, Stage_decomposition, Date_death,
          PCR_YFV_Result, IHQ_YFV_Result, FINAL_YFV_Result) %>%
@@ -72,4 +72,4 @@ df <- read.csv(file = "data/Febre Amarela Horto.csv", fileEncoding="latin1")[1:1
                                       final_yfv_result == "POSITIVO" ~ "positive")) %>%
   mutate(date_collection = substr(date_of_identification_or_collection, start = 1, stop = 10)) %>%
   mutate(date_collection = as.Date(date_collection, format = "%d/%m/%Y"))
-saveRDS(object = df, file = "analyses/1_IBM_estimationR0/data/processed_HortoData.rds")
+saveRDS(object = df, file = "data/modelling/processed_HortoData.rds")
