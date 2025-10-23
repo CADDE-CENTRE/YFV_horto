@@ -5,20 +5,20 @@ library(parallel); library(profvis); library(truncnorm); library(incidence)
 ## Sourcing functions
 source("functions/IBM_model.R")
 source("functions/particle_filter.R")
-source("2_YFV_prior_parameterisation/construct_weibullPrior_epidemicTiming.R")
-source("2_YFV_prior_parameterisation/construct_truncNormalPrior_R0.R")
+source("scripts/modelling/2_YFV_prior_parameterisation/construct_weibullPrior_epidemicTiming.R")
+source("scripts/modelling/2_YFV_prior_parameterisation/construct_truncNormalPrior_R0.R")
 
 # Loading in fitted parameters
-latent_period_fit <- readRDS("outputs/exposure_infectiousDist_stanFit.rds")
+latent_period_fit <- readRDS("outputs/modelling/exposure_infectiousDist_stanFit.rds")
 latent_period_gamma_shape <- mean(rstan::extract(latent_period_fit, "a")[[1]]) # note exp used here and gamma below, but if shape set to 1, then is an exponential
 latent_period_gamma_rate <- mean(rstan::extract(latent_period_fit, "b")[[1]]) # note exp used here and gamma below, but if shape set to 1, then is an exponential
-infectious_period_fit <- readRDS("outputs/infectious_deathDist_stanFit.rds")
+infectious_period_fit <- readRDS("outputs/modelling/infectious_deathDist_stanFit.rds")
 infectious_period_gamma_shape <- mean(rstan::extract(infectious_period_fit, "a")[[1]]) # note exp used here and gamma below, but if shape set to 1, then is an exponential
 infectious_period_gamma_rate <- mean(rstan::extract(infectious_period_fit, "b")[[1]]) # note exp used here and gamma below, but if shape set to 1, then is an exponential
-EIP_gamma_fit <- readRDS("outputs/EIP_adultMice_gammaParams_25degrees.rds")
+EIP_gamma_fit <- readRDS("outputs/modelling/EIP_adultMice_gammaParams_25degrees.rds")
 EIP_gamma_shape <- EIP_gamma_fit$gamma_a
 EIP_gamma_rate <- EIP_gamma_fit$gamma_b
-death_observation_fit <- readRDS("outputs/deathObservation_distMix_stanFit.rds")
+death_observation_fit <- readRDS("outputs/modelling/deathObservation_distMix_stanFit.rds")
 
 death_observation_gamma_shape <- mean(rstan::extract(death_observation_fit, "a_gamma")[[1]]) 
 death_observation_gamma_rate <- mean(rstan::extract(death_observation_fit, "b_gamma")[[1]])
@@ -33,7 +33,7 @@ generation_time <- round(
      death_observation_prob * (1 / death_observation_exp_rate)))
     
 # Loading in and processing Horto/PEAL data for model fitting
-horto_df <- readRDS("data/processed_HortoData.rds") %>%
+horto_df <- readRDS("data/modelling/processed_HortoData.rds") %>%
   filter(!is.na(zone_peal)) %>%
   filter(final_yfv_result != "negative")
 epi_curve <- incidence::incidence(horto_df$date_collection)
@@ -208,11 +208,11 @@ if (fresh_run) {
                loglike = loglikelihood_matrix, epilikelihood_matrix = epilikelihood_matrix,
                importlikelihood_matrix = importlikelihood_matrix, startdatelikelihood_matrix = startdatelikelihood_matrix, 
                importations = importations_matrix),
-          "outputs/parameterScan_hortoEstimation_YesImportations_YesStartDate.rds")
+          "outputs/modelling/parameterScan_hortoEstimation_YesImportations_YesStartDate.rds")
   
 } else {
   
-  temp <- readRDS("outputs/parameterScan_hortoEstimation_YesImportations_YesStartDate.rds")
+  temp <- readRDS("outputs/modelling/parameterScan_hortoEstimation_YesImportations_YesStartDate.rds")
   loglikelihood_matrix <- temp$loglike
   epilikelihood_matrix <- temp$epilikelihood_matrix
   importlikelihood_matrix <- temp$importlikelihood_matrix
@@ -389,6 +389,6 @@ overall_R0_modelling_plot <- cowplot::plot_grid(likelihood_R0_marginal, alt_Reff
                                                 nrow = 2, labels = c("", "c"))
 
 ggsave(plot = overall_R0_modelling_plot,
-       filename = "3_horto_YFV_R0_estimation/figures/overall_R0_modelling_plot.pdf",
+       filename = "scripts/modelling/3_horto_YFV_R0_estimation/figures/overall_R0_modelling_plot.pdf",
        height = 7,
        width = 8)
