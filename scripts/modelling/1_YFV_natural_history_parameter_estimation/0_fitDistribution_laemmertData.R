@@ -16,7 +16,7 @@ df <- tibble(id = seq_along(days_virus_post_infection),
   mutate(days_death_post_infection = if_else(is.na(days_death_post_infection), -99, days_death_post_infection))
 
 ## Fitting the time between infection and death
-model <- stan_model("1_YFV_natural_history_parameter_estimation/models/laemmert_monkey_death.stan")
+model <- stan_model("scripts/modelling/1_YFV_natural_history_parameter_estimation/models/laemmert_monkey_death.stan")
 data_stan <- list(N = nrow(df),
                   days = df$days_death_post_infection,
                   truncated = df$death_truncated,
@@ -28,7 +28,7 @@ data_stan <- list(N = nrow(df),
 fit <- sampling(model, data=data_stan, iter=2000, chains=4)
 hist(rstan::extract(fit, "days_simulated")[[1]], breaks = 50)
 summary(fit)
-saveRDS(fit, "outputs/infection_deathDist_stanFit.rds")
+saveRDS(fit, "outputs/modelling/infection_deathDist_stanFit.rds")
 
 df_gamma <- lapply(seq_along(1:1000), function(i) {
   x_vals <- seq(0, 15, by = 0.5)
@@ -69,7 +69,7 @@ data_stan <- list(N = nrow(df),
 fit <- sampling(model, data=data_stan, iter=2000, chains=4)
 hist(rstan::extract(fit, "days_simulated")[[1]], breaks = 50)
 summary(fit)
-saveRDS(fit, "outputs/exposure_infectiousDist_stanFit.rds")
+saveRDS(fit, "outputs/modelling/exposure_infectiousDist_stanFit.rds")
 
 df_gamma <- lapply(seq_along(1:1000), function(i) {
   x_vals <- seq(0, 15, by = 0.5)
@@ -110,7 +110,7 @@ data_stan <- list(N = nrow(df),
 fit <- sampling(model, data=data_stan, iter=2000, chains=4)
 hist(rstan::extract(fit, "days_simulated")[[1]], breaks = 50)
 summary(fit)
-saveRDS(fit, "outputs/infectious_deathDist_stanFit.rds")
+saveRDS(fit, "outputs/modelling/infectious_deathDist_stanFit.rds")
 
 df_gamma <- lapply(seq_along(1:1000), function(i) {
   x_vals <- seq(0, 15, by = 0.5)
@@ -146,7 +146,7 @@ first_part <- cowplot::plot_grid(a + theme(legend.position = "none"),
                                  labels = c("a", "b", "c"),
                                  nrow = 1)
 
-ggsave(filename = "1_YFV_natural_history_parameter_estimation/figures/SI_NHP_NatHist.pdf",
+ggsave(filename = "scripts/modelling/1_YFV_natural_history_parameter_estimation/figures/SI_NHP_NatHist.pdf",
        plot = first_part,
        width = 12, height = 4)
 
