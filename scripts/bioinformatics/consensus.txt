@@ -1,0 +1,103 @@
+# 1. Barcoding
+# Demultiplex ONT reads by barcode using guppy_barcoder.
+
+guppy_barcoder \
+  --require_barcoders_both_ends \
+  -i raw_fastq/ \
+  -s demultiplexed_reads/ \
+  --arrangements_files barcode_arrs_nb24.cfg \
+  -t 8 \
+  -r
+
+# Input: basecalled reads in raw_fastq/
+# Output: barcode-specific FASTQ files in demultiplexed_reads/
+
+# 2. Trimming
+# Remove 30 bases from both 5? and 3? ends of each FASTQ read.
+
+for i in demultiplexed_reads/*.fastq; do
+  seqtk trimfq -b 30 "$i" | \
+  awk 'NR % 4 == 2 {print substr($0, 1, length($0)-30)}
+       NR % 4 == 0 {print substr($0, 1, length($0)-30)}
+       NR % 4 != 2 && NR % 4 != 0 {print}' \
+  > "${i%.fastq}.trimmed.fastq"
+done
+
+# Input: demultiplexed FASTQs
+# Output: *.trimmed.fastq (trimmed reads)
+
+# 3. Mapping
+# Map reads to the reference genome using minimap2, then sort and index with samtools.
+
+for i in trimmed_reads/*.trimmed.fastq; do
+  minimap2 -x map-ont -a reference.fasta "$i" | \
+  samtools sort -o "${i%.trimmed.fastq}.sorted.bam"
+  samtools index "${i%.trimmed.fastq}.sorted.bam"
+done
+
+# Input: trimmed FASTQs and reference genome (reference.fasta)
+# Output: sorted and indexed BAM files (*.sorted.bam and *.bai)
+
+# 4. Mapping Visualization
+# Visualize alignments using Tablet or similar software.
+# Inputs: *.sorted.bam and the same reference genome.
+
+# 5. Variant Calling
+# Call variants for each sample using medaka_variant.
+
+for i in mapped/*.sorted.bam; do
+  medaka_variant -f reference.fasta -i "$i" -o "${i%.bam}.vcfdir"
+done
+
+# Input: BAM files and reference
+# Output: variant call directories containing round_1_hap_1.vcf
+
+# 6. Consensus Generation (20x depth coverage threshold)
+# Build consensus sequences using margin_cons_medaka and mask regions with low coverage (<10x).
+
+minimum_depth=10
+# minimum_depth=20 (alternative)
+
+for i in mapped/*.sorted.bam; do
+  sample=$(basename "${i%.sorted.bam}")
+  vcf="variants/${sample}.vcfdir/round_1_hap_1.vcf"
+  out="${sample}.consensus.fasta"
+
+  margin_cons_medaka --depth "$minimum_depth" reference.fasta "$vcf" "$i" > "$out"
+
+  # Create BED for low-coverage regions
+  samtools depth -a "$i" | awk -v min="$minimum_depth" '$3 < min {print $1"\t"$2-1"\t"$2}' \
+    > "${sample}.lowcov.bed"
+
+  # Mask low-coverage regions with Ns
+  if [[ -s "${sample}.lowcov.bed" ]]; then
+    bedtools maskfasta -mc N -fi "$out" -fo "masked_${sample}.consensus.fasta" -bed "${sample}.lowcov.bed"
+  fi
+done
+
+# Input: BAMs, corresponding VCFs, reference genome
+# Output: *.consensus.fasta and masked_*.consensus.fasta
+
+# 7. Statistics
+
+# a. Total reads and N50
+NanoStat --fastq demultiplexed_reads/barcode01.fastq > stats/barcode01_nanostat.txt
+
+# b. Mapped reads summary
+for i in mapped/*.sorted.bam; do
+  samtools flagstat "$i" > stats/$(basename "$i" .bam)_flagstat.txt
+done
+
+# c. Mean depth of coverage
+for i in mapped/*.sorted.bam; do
+  samtools depth -a "$i" | awk '{c++;s+=$3} END{print s/c}' > stats/$(basename "$i" .bam)_depth.txt
+done
+
+# d. Ns in consensus FASTA
+seqkit fx2tab --name -B N consensus/*.fasta > stats/Ns_per_sample.txt
+
+# Outputs:
+# - Read stats (*_nanostat.txt)
+# - Mapping stats (*_flagstat.txt)
+# - Mean coverage (*_depth.txt)
+# - Ns in consensus (Ns_per_sample.txt)

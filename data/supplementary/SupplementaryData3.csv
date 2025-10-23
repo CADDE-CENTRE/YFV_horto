@@ -1,0 +1,55 @@
+﻿State,Species,Species_complete,Municipality,include,tested_pools,positive_pools,total_mosquitoes_captured,MIR,MLE,Collection_start_date,Collection_end_date,doi
+RJ,Other,Sa. Chloropterus,Angra dos Reis_Ilha_Grande,no,1,1,,1000,,07/02/2018,,10.3201/eid1612.100608
+ES,Other,Sa. chloropterus,Santa Teresa_a,no,2,0,4,0,,08/02/2017,02/03/2017,10.3390/v14122805
+MA,Other,Sa. Chloropterus,Pastos Bons,no,3,1,73,13.699,,1994,,10.4269/ajtmh.1997.57.132
+ES,Other,Sa. chloropterus,Pancas,no,3,1,12,83.333,,08/02/2017,02/03/2017,10.3390/v14122805
+MS,Other,Sa. Chloropterus,Campo Grande,no,,4,,16.7,,1992,,10.4269/ajtmh.1997.57.132
+MG,janthinomys,Hg. janthinomys,Juiz_de_Fora,no,1,1,,333,,27/01/2018,,10.3201/eid1612.100608
+ES,janthinomys,Hg. janthinomys,Domingos_Martins,no,1,1,,1000,,23/02/2017,,10.3201/eid1612.100608
+ES,janthinomys,Hg. janthinomys/capricornii,Venda Nova do Imigrante_a,no,1,0,1,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,janthinomys,Hg. janthinomys/capricornii,Santa Teresa_a,no,2,0,7,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,janthinomys,Hg. janthinomys/capricornii,Cariacica,no,2,1,10,100,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,janthinomys,Hg. janthinomys/capricornii,Pancas,no,2,1,2,500,,08/02/2017,02/03/2017,10.3390/v14122805
+RJ,janthinomys,Hg. janthinomys,Marica,no,5,2,,143.8,15.35,07/05/2017,,10.3201/eid1612.100608
+ES,janthinomys,Hg. janthinomys/capricornii,Santa Teresa_b,no,5,0,17,0,,08/02/2017,02/03/2017,10.3390/v14122805
+RJ,janthinomys,Hg. janthinomys,Macae,no,6,1,,58.8,5.55,26/04/2017,,10.3201/eid1612.100608
+RJ,janthinomys,Hg. janthinomys,Nova_Iguacu,no,8,1,,29.4,2.94,09/01/2018,,10.3201/eid1612.100608
+RJ,janthinomys,Hg. janthinomys,Teresopolis,yes,19,1,,13.1,1.31,19/12/2017,,10.3201/eid1612.100608
+MG,janthinomys,Hg. janthinomys,Belmiro_Braga,yes,24,1,,10.8,1.09,29/01/2018,,10.3201/eid1612.100608
+RJ,janthinomys,Hg. janthinomys,Valenca,yes,40,12,,70.5,8.01,20/01/2018,,10.3201/eid1612.100608
+MA,janthinomys,Hg. janthinomys,Mirador,yes,48,0,1196,0,,1994,,10.4269/ajtmh.1997.57.132
+MA,janthinomys,Hg. janthinomys,Pastos Bons,yes,55,16,1245,12.851,,1994,,10.4269/ajtmh.1997.57.132
+PA,janthinomys,Hg. janthinomys,Breves,no,,2,,14,,1988,,10.4269/ajtmh.1997.57.132
+MS,janthinomys,Hg. janthinomys,Campo Grande,no,,1,,28.4,,1992,,10.4269/ajtmh.1997.57.132
+ES,leucocelaenus,Hg. leucocelaenus,Venda Nova do Imigrante_b,no,2,1,7,142.857,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,leucocelaenus,Hg. leucocelaenus,Domingos_Martins,no,4,1,,66.6,6.76,23/02/2017,,10.3201/eid1612.100608
+ES,leucocelaenus,Hg. leucocelaenus,Santa Teresa_b,no,5,2,24,83.333,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,leucocelaenus,Hg. leucocelaenus,Venda Nova do Imigrante_a,no,5,3,18,166.667,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,leucocelaenus,Hg. leucocelaenus,Santa Teresa_a,yes,16,1,74,13.514,,08/02/2017,02/03/2017,10.3390/v14122805
+MG,leucocelaenus,Hg. leucocelaenus,Belmiro_Braga,yes,18,1,,13.5,1.33,18/01/2018,,10.3201/eid1612.100608
+RJ,leucocelaenus,Hg. leucocelaenus,Teresopolis,yes,18,1,,19.6,1.91,19/12/2017,,10.3201/eid1612.100608
+ES,leucocelaenus,Hg. leucocelaenus,Pancas,yes,22,0,104,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,leucocelaenus,Hg. leucocelaenus,Cariacica,yes,23,4,112,35.714,,08/02/2017,02/03/2017,10.3390/v14122805
+RJ,leucocelaenus,Hg. leucocelaenus,Valenca,yes,33,3,,23.2,2.37,24/01/2018,,10.3201/eid1612.100608
+RJ,leucocelaenus,Hg. leucocelaenus,Marica,yes,100,35,,81.9,10.16,07/06/2017,,10.3201/eid1612.100608
+SP,leucocelaenus,Hg. leucocelaenus,SaoPaulo,yes,300,9,87,58.8,6.3,22/12/2017,02/10/2018,This_study
+RS,leucocelaenus,Hg. leucocelaenus,Coronel Barros and Caibaté,no,,,,3.7,,01/11/2008,01/11/2008,10.3201/eid1612.100608
+RJ,Other,Ae. scapularis,Marica,yes,72,1,,2.1,0.21,06/05/2017,,10.3201/eid1612.100608
+RS,Other,Ae. serratus,Coronel Barros,no,,,,1.88,,01/11/2008,01/11/2008,10.3201/eid1612.100608
+RJ,Other,Ae. taeniorhynchus,Marica,yes,164,1,,0.6,0.06,06/05/2017,,10.3201/eid1612.100608
+PA,Other,Hg. albomaculatus,Faro-Monte Alegre,no,,3,,2.2,,1984,,10.4269/ajtmh.1997.57.132
+ES,Other,Sa. aureolineatus,Santa Teresa_a,no,1,0,17,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sa. aureolineatus,Cariacica,no,4,0,35,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sa. aureolineatus,Santa Teresa_b,no,4,0,1,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sa. aureolineatus,Venda Nova do Imigrante_a,no,4,0,23,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sa. identicus,Venda Nova do Imigrante_a,no,2,0,2,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sa. identicus,Venda Nova do Imigrante_b,no,2,0,5,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sa. identicus,Cariacica,no,4,1,19,52.632,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sa. Soperi,Santa Teresa_a,no,1,0,1,0,,08/02/2017,02/03/2017,10.3390/v14122805
+MA,Other,Sa. Chloropterus,Mirador,yes,13,0,267,0,,1994,,10.4269/ajtmh.1997.57.132
+ES,Other,Sa. Soperi,Cariacica,yes,33,2,166,12.048,,08/02/2017,02/03/2017,10.3390/v14122805
+MS,Other,Sa. Soperi,Campo Grande,no,,1,,52.6,,1992,,10.4269/ajtmh.1997.57.132
+ES,Other,Sh. fluviatilis,Santa Teresa_a,no,1,0,11,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sh. fluviatilis,Venda Nova do Imigrante_b,no,4,1,36,27.778,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sh. fluviatilis,Cariacica,no,5,0,46,0,,08/02/2017,02/03/2017,10.3390/v14122805
+ES,Other,Sh. fluviatilis,Venda Nova do Imigrante_a,no,9,0,36,0,,08/02/2017,02/03/2017,10.3390/v14122805

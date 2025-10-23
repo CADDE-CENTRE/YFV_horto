@@ -1,0 +1,2 @@
+## IQ-TREE2
+iqtree2 -s alignment.fasta -m MFP -B 1000 -alrt 1000 -nt  # v2.2.6

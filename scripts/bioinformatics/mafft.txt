@@ -1,0 +1,2 @@
+## MAFFT
+mafft --auto --thread -1 alignment.fasta > alignment.aln.fasta  # v7.490

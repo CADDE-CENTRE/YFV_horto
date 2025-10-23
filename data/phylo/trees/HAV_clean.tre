@@ -1,0 +1,199 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=97;
+	taxlabels
+	'AB618529.1_human_Japan_2010'
+	'AB623053.1_human_Japan_1957'
+	'AB793725.1_human_Philippines_2012'
+	'AB793726.1_human_Japan_2012'
+	'AB839692.1_human_Indonesia_Bali_2003'
+	'AB839694.1_human_Indonesia_2007'
+	'AB839695.1_human_Indonesia_2007'
+	'AB839697.1_human_Indonesia_2007'
+	'AB909123.1_human_PapuaNewGuinea_2011'
+	'AY974170.1_human_Cuba_1991'
+	'EF207320.1_human_Thailand_2001'
+	'EF406357.1_human_China_1978'
+	'EU526088.1_human_Uruguay_2005'
+	'EU526089.1_human_Uruguay_2005'
+	'HM769724.1_human_Argentina_2006'
+	'HQ437707.1_human_Russia_2007'
+	'K02990.1_human_USA_LosAngeles_1985'
+	'KC182587.1_human_Mexico_2009'
+	'KC182588.1_human_Mexico_2009'
+	'KC182589.1_human_Mexico_2009'
+	'KC182590.1_human_Mexico_2009'
+	'LC049340.1_human_Mongolia_2010'
+	'LC049341.1_human_Mongolia_2012'
+	'LC416593.1_human_Japan_2018'
+	'LC416594.1_human_Japan_2018'
+	'LC416595.1_human_Japan_2018'
+	'LC435031.1_human_Japan_2018'
+	'LC435032.1_human_Japan_2018'
+	'MG049743.1_human_Brazil_SaoPaulo_2017'[&!color=#fa0000]
+	'MN062164.1_human_USA_California_2017'
+	'MN062165.1_human_USA_California_2018'
+	'MN062166.1_human_USA_California_2018'
+	'MW405350.1_human_SouthKorea_2014'
+	'MZ556984.1_Brazil_Belem_1982'
+	'MZ556993.1_Brazil_Belem_1982'
+	'MZ556996.1_Brazil_Marituba_1983'
+	'MZ556999.1_Brazil_Belem_1983'
+	'MZ557001.1_Brazil_Belem_1983'
+	'MZ557002.1_Brazil_Ananideua_1983'
+	'MZ557011.1_Brazil_Belem_1983'
+	'MZ557012.1_Brazil_Belem_1983'
+	'OK625565.1_human_Haiti_2016'
+	'ON496631.1_human_USA_NewYork_2019'
+	'ON496632.1_human_USA_NewYork_2019'
+	'ON524415.1_human_USA_NewYork_2019'
+	'ON524416.1_human_USA_NewYork_2019'
+	'ON524417.1_human_USA_NewYork_2019'
+	'ON524419.1_human_USA_NewYork_2019'
+	'ON524420.1_human_USA_NewYork_2019'
+	'ON524421.1_human_USA_NewYork_2019'
+	'ON524422.1_human_USA_NewYork_2019'
+	'ON524424.1_human_USA_NewYork_2019'
+	'ON524427.1_human_USA_NewYork_2019'
+	'ON524428.1_human_USA_NewYork_2019'
+	'ON524431.1_human_USA_NewYork_2019'
+	'ON524435.1_human_USA_NewYork_2019'
+	'ON524439.1_human_USA_NewYork_2019'
+	'ON524443.1_human_USA_NewYork_2019'
+	'ON524458.1_human_USA_NewYork_2019'
+	'ON524459.1_human_USA_NewYork_2019'
+	'ON524473.1_human_USA_NewYork_2020'
+	'ON524519.1_human_USA_NewYork_2020'
+	'ON524522.1_human_USA_NewYork_2020'
+	'ON524534.1_human_USA_NewYork_2021'
+	'ON524535.1_human_USA_NewYork_2021'
+	'ON661550.1_human_USA_NewYork_2019'
+	'ON661551.1_human_USA_NewYork_2021'
+	'ON661552.1_human_USA_NewYork_2021'
+	'ON661553.1_human_USA_NewYork_2021'
+	'ON807335.1_human_France_2016'
+	'PP661694.1_human_Argentina_Cordoba_2018'
+	'PP661695.1_human_Argentina_2019'
+	'PP661696.1_human_Argentina_Cordoba_2023'
+	'PP661697.1_Argentina_Cordoba_2018'
+	'PP661699.1_human_Argentina_Cordoba_2017'
+	'PP693071.1_human_Argentina_Cordoba_2022'
+	'PP693073.1_human_Argentina_Cordoba_2018'
+	'PP693075.1_human_Argentina_Cordoba_2023'
+	'PV702359.1_Alouatta_Brazil_SaoPaulo_2017'[&!color=#fa0000]
+	'PV902607.1_human_USA_California_2024'
+	'PV902609.1_human_USA_California_2024'
+	'PV902610.1_human_USA_California_2024'
+	'PV902611.1_human_USA_California_2024'
+	'PV902612.1_human_USA_California_2024'
+	'PV902613.1_human_USA_California_2024'
+	'PV902614.1_human_USA_California_2024'
+	'PV902615.1_human_USA_California_2024'
+	'PV902616.1_human_USA_California_2024'
+	'PV902617.1_human_USA_California_2024'
+	'PV902618.1_human_USA_California_2024'
+	'PV902619.1_human_USA_California_2024'
+	'PV902620.1_human_USA_California_2024'
+	'PV902621.1_USA_California_2025'
+	'PV902622.1_human_USA_California_2025'
+	'PV902624.1_human_USA_California_2025'
+	'PV902625.1_human_USA_California_2025'
+	'PV902626.1_human_USA_California_2025'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('MZ557012.1_Brazil_Belem_1983':1.0E-6,('MZ557011.1_Brazil_Belem_1983':1.0E-6,((('MZ557002.1_Brazil_Ananideua_1983':0.009474,'ON524431.1_human_USA_NewYork_2019':0.019579)[&bootstrap=73]:0.007073,((((((((((('PV702359.1_Alouatta_Brazil_SaoPaulo_2017':0.0011,('MG049743.1_human_Brazil_SaoPaulo_2017':1.0E-6,'OK625565.1_human_Haiti_2016':0.001529)[&bootstrap=100,!rotate=true]:0.001236)[&bootstrap=99]:3.13E-4,(('PP661699.1_human_Argentina_Cordoba_2017':1.0E-6,'PP693073.1_human_Argentina_Cordoba_2018':1.0E-6)[&bootstrap=100]:4.69E-4,'PP661694.1_human_Argentina_Cordoba_2018':0.001856)[&bootstrap=98]:1.42E-4)[&bootstrap=100]:0.0038,'ON524439.1_human_USA_NewYork_2019':0.003676)[&bootstrap=100]:0.001344,'ON524427.1_human_USA_NewYork_2019':0.006244)[&bootstrap=100]:0.003164,(('PP661696.1_human_Argentina_Cordoba_2023':1.0E-6,'PP693075.1_human_Argentina_Cordoba_2023':1.69E-4)[&bootstrap=100]:0.001125,'PP693071.1_human_Argentina_Cordoba_2022':7.74E-4)[&bootstrap=100]:0.008577)[&bootstrap=98]:0.001166,(((((((('ON524417.1_human_USA_NewYork_2019':0.0,'ON524416.1_human_USA_NewYork_2019':0.0):1.0E-6,'ON524419.1_human_USA_NewYork_2019':1.0E-6)[&bootstrap=97]:6.12E-4,(('ON496632.1_human_USA_NewYork_2019':1.52E-4,('ON524421.1_human_USA_NewYork_2019':1.0E-6,'ON524428.1_human_USA_NewYork_2019':1.0E-6)[&bootstrap=99]:1.52E-4)[&bootstrap=25]:1.0E-6,'ON524424.1_human_USA_NewYork_2019':1.0E-6)[&bootstrap=40]:1.0E-6)[&bootstrap=90]:3.08E-4,((((('ON524443.1_human_USA_NewYork_2019':1.52E-4,'ON524459.1_human_USA_NewYork_2019':1.52E-4)[&bootstrap=63]:1.0E-6,(((('ON524535.1_human_USA_NewYork_2021':1.0E-6,'ON524534.1_human_USA_NewYork_2021':1.52E-4)[&bootstrap=68]:1.0E-6,('ON661551.1_human_USA_NewYork_2021':3.06E-4,'ON661553.1_human_USA_NewYork_2021':1.0E-6)[&bootstrap=71]:3.07E-4)[&bootstrap=79]:3.06E-4,'ON661552.1_human_USA_NewYork_2021':1.53E-4)[&bootstrap=97]:7.68E-4,'ON524458.1_human_USA_NewYork_2019':1.53E-4)[&bootstrap=91]:1.52E-4)[&bootstrap=92]:1.51E-4,'ON524473.1_human_USA_NewYork_2020':7.71E-4)[&bootstrap=90]:3.07E-4,'ON524422.1_human_USA_NewYork_2019':1.0E-6)[&bootstrap=92]:6.16E-4,'MN062166.1_human_USA_California_2018':6.17E-4)[&bootstrap=90]:1.46E-4)[&bootstrap=100]:0.001426,('PV902621.1_USA_California_2025':0.001239,'PV902622.1_human_USA_California_2025':0.001548)[&bootstrap=100]:0.00167)[&bootstrap=98]:5.96E-4,'ON524420.1_human_USA_NewYork_2019':0.003987)[&bootstrap=100]:0.007679,('ON661550.1_human_USA_NewYork_2019':0.008201,((((('PV902619.1_human_USA_California_2024':1.0E-6,((('PV902616.1_human_USA_California_2024':1.51E-4,'PV902614.1_human_USA_California_2024':1.0E-6)[&bootstrap=100]:1.51E-4,'PV902618.1_human_USA_California_2024':1.0E-6)[&bootstrap=100]:1.51E-4,'PV902612.1_human_USA_California_2024':1.0E-6)[&bootstrap=99]:1.51E-4)[&bootstrap=40]:1.0E-6,'PV902613.1_human_USA_California_2024':1.0E-6)[&bootstrap=37]:1.0E-6,'PV902610.1_human_USA_California_2024':1.51E-4)[&bootstrap=45]:1.0E-6,(('PV902609.1_human_USA_California_2024':1.0E-6,'PV902607.1_human_USA_California_2024':1.0E-6)[&bootstrap=69]:1.0E-6,('PV902625.1_human_USA_California_2025':3.03E-4,(('PV902617.1_human_USA_California_2024':1.0E-6,('PV902626.1_human_USA_California_2025':3.03E-4,'PV902620.1_human_USA_California_2024':1.0E-6)[&bootstrap=13]:1.0E-6)[&bootstrap=18]:1.0E-6,'PV902624.1_human_USA_California_2025':1.51E-4)[&bootstrap=37]:1.0E-6)[&bootstrap=100]:3.03E-4)[&bootstrap=99]:1.51E-4)[&bootstrap=96]:1.51E-4,('PV902611.1_human_USA_California_2024':1.0E-6,'PV902615.1_human_USA_California_2024':1.51E-4)[&bootstrap=72]:1.0E-6)[&bootstrap=100]:0.009612)[&bootstrap=96]:0.001266)[&bootstrap=89]:3.46E-4,('ON524522.1_human_USA_NewYork_2020':0.001768,'ON524519.1_human_USA_NewYork_2020':0.001794)[&bootstrap=100]:0.007829)[&bootstrap=46]:3.4E-4)[&bootstrap=84]:2.57E-4,('KC182588.1_human_Mexico_2009':0.008526,'ON524435.1_human_USA_NewYork_2019':0.009931)[&bootstrap=84]:6.36E-4)[&bootstrap=98]:0.002765,(((('ON496631.1_human_USA_NewYork_2019':9.28E-4,'ON524415.1_human_USA_NewYork_2019':6.18E-4)[&bootstrap=100]:6.21E-4,'MN062164.1_human_USA_California_2017':3.06E-4)[&bootstrap=100]:9.78E-4,'MN062165.1_human_USA_California_2018':7.28E-4)[&bootstrap=100]:0.011042,(('KC182587.1_human_Mexico_2009':1.0E-6,'KC182590.1_human_Mexico_2009':1.0E-6)[&bootstrap=46]:1.0E-6,'KC182589.1_human_Mexico_2009':3.08E-4)[&bootstrap=100]:0.012716)[&bootstrap=62]:0.001444)[&bootstrap=100]:0.016069,(('AY974170.1_human_Cuba_1991':0.00236,'HQ437707.1_human_Russia_2007':0.004806)[&bootstrap=100]:0.011819,'K02990.1_human_USA_LosAngeles_1985':0.012313)[&bootstrap=99]:0.001601)[&bootstrap=100]:0.013403,(('AB623053.1_human_Japan_1957':0.0068,'AB909123.1_human_PapuaNewGuinea_2011':0.022783)[&bootstrap=99]:0.001582,((('EF406357.1_human_China_1978':0.005005,'LC049340.1_human_Mongolia_2010':0.012064)[&bootstrap=99]:9.55E-4,'MW405350.1_human_SouthKorea_2014':0.019643)[&bootstrap=100]:0.009778,(((('AB839692.1_human_Indonesia_Bali_2003':0.005499,'AB839694.1_human_Indonesia_2007':0.008786)[&bootstrap=95]:8.93E-4,'AB839695.1_human_Indonesia_2007':0.010549)[&bootstrap=88]:3.31E-4,'AB839697.1_human_Indonesia_2007':0.00692)[&bootstrap=100]:0.017047,((('LC049341.1_human_Mongolia_2012':0.012887,('LC435031.1_human_Japan_2018':3.07E-4,(('LC416594.1_human_Japan_2018':1.52E-4,'LC416593.1_human_Japan_2018':1.53E-4)[&bootstrap=19]:1.0E-6,('LC416595.1_human_Japan_2018':1.53E-4,'LC435032.1_human_Japan_2018':9.25E-4)[&bootstrap=2]:1.0E-6)[&bootstrap=14]:1.0E-6)[&bootstrap=100]:0.014753)[&bootstrap=100]:0.011358,'EF207320.1_human_Thailand_2001':0.025307)[&bootstrap=50]:3.0E-6,(('AB793725.1_human_Philippines_2012':1.0E-6,'AB793726.1_human_Japan_2012':1.52E-4)[&bootstrap=100]:0.008981,'AB618529.1_human_Japan_2010':0.00592)[&bootstrap=100]:0.020801)[&bootstrap=78]:0.001005)[&bootstrap=100]:0.002833)[&bootstrap=96]:4.89E-4)[&bootstrap=100]:0.007712)[&bootstrap=97]:6.28E-4,('ON807335.1_human_France_2016':0.024775,(('PP661697.1_Argentina_Cordoba_2018':0.011559,'PP661695.1_human_Argentina_2019':0.008111)[&bootstrap=100]:0.003928,'HM769724.1_human_Argentina_2006':0.015293)[&bootstrap=100]:0.008533)[&bootstrap=100]:0.009329)[&bootstrap=99]:0.005777)[&bootstrap=67]:0.008349,(((('MZ556999.1_Brazil_Belem_1983':0.006816,'MZ556984.1_Brazil_Belem_1982':2.0E-6)[&bootstrap=100]:0.004784,'EU526088.1_human_Uruguay_2005':0.009976)[&bootstrap=96]:0.004592,'EU526089.1_human_Uruguay_2005':0.013815)[&bootstrap=63]:2.0E-6,'MZ556996.1_Brazil_Marituba_1983':0.011504)[&bootstrap=42]:2.0E-6)[&bootstrap=98]:0.008307)[&bootstrap=57]:1.0E-6,('MZ557001.1_Brazil_Belem_1983':0.00267,'MZ556993.1_Brazil_Belem_1982':1.0E-6)[&bootstrap=55]:2.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName=".AppleSystemUIFont";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=6.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
