@@ -2,7 +2,7 @@
 library(tidyverse); library(rstan)
 
 # Loading in cleaned data
-df <- readRDS("data/processed_HortoData.rds") %>%
+df <- readRDS("data/modelling/processed_HortoData.rds") %>%
   filter(!is.na(zone_peal)) %>%
   filter(final_yfv_result != "negative")
 df$estimated_date_death[df$id == 39] <- "22/12/2017" ## date_notification umabiguously given as 27/12/2017 so assume the original "22/10/2017" is a typo
@@ -34,7 +34,7 @@ y[y < 0.5] <- 0.5
 mean(y)
 
 ## Fitting the time between infection and death - mixture of Exponential and Gamma distribution
-model <- stan_model("1_YFV_natural_history_parameter_estimation/models/observation_time_gamma_exp_mix.stan")
+model <- stan_model("scripts/modelling/1_YFV_natural_history_parameter_estimation/models/observation_time_gamma_exp_mix.stan")
 data_stan <- list(N = nrow(df) - 1,
                   days = as.numeric(df2$death_collection_delay2) + 0.01,
                   a_1 = 1,
@@ -44,7 +44,7 @@ data_stan <- list(N = nrow(df) - 1,
 fit <- sampling(model, data=data_stan, iter=5000, chains=1)
 hist(as.vector(rstan::extract(fit, "days_simulated")[[1]]), breaks = 50)
 summary(fit)
-saveRDS(fit, "outputs/deathObservation_distMix_stanFit.rds")
+saveRDS(fit, "outputs/modelling/deathObservation_distMix_stanFit.rds")
 days <- as.vector(rstan::extract(fit, "days_simulated")[[1]])
 breaks <- seq(floor(min(days)), ceiling(max(days)) + 1, by = 1)
 bin_counts <- hist(days, breaks = breaks, plot = FALSE)$counts
@@ -118,7 +118,7 @@ deaths_obs_delay_plot2 <- ggplot() +
         # legend.justification = c(1, 1),
         legend.position = "none")
 
-ggsave(filename = "1_YFV_natural_history_parameter_estimation/figures/SI_NHP_DeathObs.pdf",
+ggsave(filename = "scripts/modelling/1_YFV_natural_history_parameter_estimation/figures/SI_NHP_DeathObs.pdf",
        plot = deaths_obs_delay_plot2,
        width = 4, height = 4)
 
