@@ -1,0 +1,5 @@
+.y.,p,p.adj,p.format,p.signif,method,test,group1,group2
+MIR,0.057773127873523254,0.058,0.058,ns,Kruskal-Wallis,kruskal,NA,NA
+MIR,0.18707600928471763,0.22,0.187,ns,Wilcoxon,wilcoxon_pairwise,leucocelaenus,janthinomys
+MIR,0.0411841631553894,0.12,0.041,*,Wilcoxon,wilcoxon_pairwise,leucocelaenus,Other
+MIR,0.21874201001089974,0.22,0.219,ns,Wilcoxon,wilcoxon_pairwise,janthinomys,Other

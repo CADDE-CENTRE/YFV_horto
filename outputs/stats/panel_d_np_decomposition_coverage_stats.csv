@@ -1,0 +1,4 @@
+stage,n_samples,median_cov,min_cov,max_cov,pct_over70
+Intact/Alive,34,99.899,27.544,99.908,94.11764705882352
+Medium/Advanced,12,99.899,0.958,99.908,83.33333333333334
+Not available,43,99.889,0,99.908,88.37209302325581

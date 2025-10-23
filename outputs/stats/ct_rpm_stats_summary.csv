@@ -1,0 +1,5 @@
+metric,n_total,rho,p_value,n_np,n_hg,median_np,median_hg,range_np,range_hg
+spearman_ct_vs_rpm,84,-0.7192668951875485,1.2919137630451791e-14,NA,NA,NA,NA,NA,NA
+ct_np_vs_hg,NA,NA,3.524553977315571e-5,75,9,14,23,5.57–31.68,19.00–25.00
+rpmlog10_np_vs_hg,NA,NA,0.0032813977697461467,89,9,5.8802,5.0446,2.99–6.68,4.50–5.45
+n50_np_vs_hg,NA,NA,9.148346568027406e-4,89,9,448,732,201–585,331–945

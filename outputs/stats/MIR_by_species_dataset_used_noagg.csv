@@ -1,0 +1,18 @@
+state,species,species_complete,municipality,include,tested_pools,positive_pools,total_mosquitoes_captured,mir,mle,collection_start_date,collection_end_date,doi,include_flag,species_raw,MIR,species_grp
+RJ,janthinomys,Hg. janthinomys,Teresopolis,yes,19,1,NA,13.1,1.31,19/12/2017,NA,10.3201/eid1612.100608,TRUE,janthinomys,13.1,janthinomys
+MG,janthinomys,Hg. janthinomys,Belmiro_Braga,yes,24,1,NA,10.8,1.09,29/01/2018,NA,10.3201/eid1612.100608,TRUE,janthinomys,10.8,janthinomys
+RJ,janthinomys,Hg. janthinomys,Valenca,yes,40,12,NA,70.5,8.01,20/01/2018,NA,10.3201/eid1612.100608,TRUE,janthinomys,70.5,janthinomys
+MA,janthinomys,Hg. janthinomys,Mirador,yes,48,0,1196,0,NA,1994,NA,10.4269/ajtmh.1997.57.132,TRUE,janthinomys,0,janthinomys
+MA,janthinomys,Hg. janthinomys,Pastos Bons,yes,55,16,1245,12.851,NA,1994,NA,10.4269/ajtmh.1997.57.132,TRUE,janthinomys,12.851,janthinomys
+ES,leucocelaenus,Hg. leucocelaenus,Santa Teresa_a,yes,16,1,74,13.514,NA,08/02/2017,02/03/2017,10.3390/v14122805,TRUE,leucocelaenus,13.514,leucocelaenus
+MG,leucocelaenus,Hg. leucocelaenus,Belmiro_Braga,yes,18,1,NA,13.5,1.33,18/01/2018,NA,10.3201/eid1612.100608,TRUE,leucocelaenus,13.5,leucocelaenus
+RJ,leucocelaenus,Hg. leucocelaenus,Teresopolis,yes,18,1,NA,19.6,1.91,19/12/2017,NA,10.3201/eid1612.100608,TRUE,leucocelaenus,19.6,leucocelaenus
+ES,leucocelaenus,Hg. leucocelaenus,Pancas,yes,22,0,104,0,NA,08/02/2017,02/03/2017,10.3390/v14122805,TRUE,leucocelaenus,0,leucocelaenus
+ES,leucocelaenus,Hg. leucocelaenus,Cariacica,yes,23,4,112,35.714,NA,08/02/2017,02/03/2017,10.3390/v14122805,TRUE,leucocelaenus,35.714,leucocelaenus
+RJ,leucocelaenus,Hg. leucocelaenus,Valenca,yes,33,3,NA,23.2,2.37,24/01/2018,NA,10.3201/eid1612.100608,TRUE,leucocelaenus,23.2,leucocelaenus
+RJ,leucocelaenus,Hg. leucocelaenus,Marica,yes,100,35,NA,81.9,10.16,07/06/2017,NA,10.3201/eid1612.100608,TRUE,leucocelaenus,81.9,leucocelaenus
+SP,leucocelaenus,Hg. leucocelaenus,SaoPaulo,yes,300,9,87,58.8,6.3,22/12/2017,02/10/2018,This_study,TRUE,leucocelaenus,58.8,leucocelaenus
+RJ,Other,Ae. scapularis,Marica,yes,72,1,NA,2.1,0.21,06/05/2017,NA,10.3201/eid1612.100608,TRUE,other,2.1,Other
+RJ,Other,Ae. taeniorhynchus,Marica,yes,164,1,NA,0.6,0.06,06/05/2017,NA,10.3201/eid1612.100608,TRUE,other,0.6,Other
+MA,Other,Sa. Chloropterus,Mirador,yes,13,0,267,0,NA,1994,NA,10.4269/ajtmh.1997.57.132,TRUE,other,0,Other
+ES,Other,Sa. Soperi,Cariacica,yes,33,2,166,12.048,NA,08/02/2017,02/03/2017,10.3390/v14122805,TRUE,other,12.048,Other

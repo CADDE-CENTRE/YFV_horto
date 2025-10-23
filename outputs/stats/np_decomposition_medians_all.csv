@@ -1,0 +1,3 @@
+stage,n_samples,median_ct,median_rpm_log10,median_n50,median_cov10x_pct,range_ct,range_rpm_log10,range_n50,range_cov10x_pct
+Early (intact/alive),34,12.545,5.91545,415.5,99.899,5.57–26.76,4.00–6.68,210–585,27.5–99.9
+Later (medium/advanced),12,18.2,5.529400000000001,408.5,99.899,10.00–20.63,4.17–6.56,219–520,1.0–99.9
