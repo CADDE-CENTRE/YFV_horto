@@ -22,7 +22,7 @@ authors:
 # Replace this with the Zenodo *concept* DOI once the GitHub release is archived
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.CODE_CONCEPT_DOI
+    value: 10.5281/zenodo.17547316
 
 references:
   - type: dataset
