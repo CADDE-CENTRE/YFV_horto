@@ -1,5 +1,6 @@
 ## Data & Code DOIs
-- Code: [![Zenodo](https://zenodo.org/badge/<ZENODO_BADGE_ID>.svg)](https://zenodo.org/badge/latestdoi/<ZENODO_BADGE_ID>)
+- Code: [![DOI](https://zenodo.org/badge/1002171612.svg)](https://zenodo.org/badge/latestdoi/1002171612)
+- Concept: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.CONCEPTID.svg)](https://doi.org/10.5281/zenodo.CONCEPTID)
 - Extended & Source Data: [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17427038.svg)](https://doi.org/10.5281/zenodo.17427038)
 
 # Evolution and spillover dynamics of yellow fever at the forest–urban interface
