@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software release and the linked dataset."
+title: "YFV_horto: analysis code for 'Evolution and spillover dynamics of yellow fever at the forest–urban interface'"
+type: software
+version: "1.0.0"
+repository-code: "https://github.com/cadde-centre/YFV_horto"
+license: MIT
+keywords:
+  - yellow fever virus
+  - phylogenetics
+  - genomics
+  - epidemiology
+authors:
+  - family-names: Faria
+    given-names: Nuno R.
+    # orcid: "https://orcid.org/0000-0001-8839-2798"
+    affiliation: "Imperial College London"
+  - family-names: Whittaker
+    given-names: Charles
+    # orcid: "https://orcid.org/0000-0002-5003-2575"
+
+# Replace this with the Zenodo *concept* DOI once the GitHub release is archived
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.CODE_CONCEPT_DOI
+
+references:
+  - type: dataset
+    title: "Evolution and spillover dynamics of yellow fever at the forest–urban interface"
+    doi: 10.5281/zenodo.17427038
+    year: 2025
+    # Abridged author list is acceptable in CFF; expand if you wish
+    authors:
+      - family-names: Telles-de-Deus
+        given-names: Juliana
+      - family-names: Whittaker
+        given-names: C.
+      - family-names: Claro
+        given-names: I.
+      - family-names: Telles de Deus
+        given-names: J.
+      - family-names: Bertanhe
+        given-names: M.
+      - name: "… et al."
