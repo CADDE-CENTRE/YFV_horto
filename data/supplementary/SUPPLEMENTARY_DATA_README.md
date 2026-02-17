@@ -16,5 +16,5 @@ Contains the key input tables used to reproduce the main analyses and figures.
 - `scripts/fig1_meteo_geo.R`: expects site coordinates columns (`lat`/`latitude`, `lon`/`longitude`) and optional site names.
 - `scripts/glm_hg_abundance.R`: expects trap counts joined to climate (`date`, `site`, `species`, `count`, and lagged climate).
 - `scripts/mir_estimation.R`: expects pooled PCR results (`pool_id`, `pool_size`, `yfv_pcr_positive`).
-- `scripts/fig2.R` & `scripts/lm_seq_performance.R`: expect sequencing stats (`ct`, `rpm` [log10], `n50`, `smart9n_cov10x_pct`, `amplicon_cov_pct`, `host`, `group`, `decomposition_simple`).
+- `scripts/fig2.R` & `scripts/ct_rpm_simple.R`: expect sequencing stats (`ct`, `rpm` [log10], `n50`, `smart9n_cov10x_pct`, `amplicon_cov_pct`, `host`, `group`, `decomposition_simple`).
 - `scripts/phylo/align_iqtree.sh`: uses FASTA alignments; if a metadata CSV exists, include `accession`, `country`, `year`.
